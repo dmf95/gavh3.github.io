@@ -9,7 +9,7 @@ image:
   height: 427   # in pixels
   alt: relax, my friend.
 ---
-So you've changed your project's `.gitignore` after accidentally uploaded the config file containing the password you use for everything that isn't your online banking account.
+So you've changed your project's `.gitignore` after accidentally uploading the config file containing the password you use for everything that isn't your online banking account.
 
 You hurriedly create a new `git commit -m "changes"` and push. Huh? The secrets are still there!
 
