@@ -1,7 +1,7 @@
 ---
 title: I've updated .gitignore but the files are still tracked, what's the deal?
 date: 2021-09-11 16:02:00 -0700
-categories: [Version Control]
+categories: [Git]
 tags: [git]     # TAG names should always be lowercase
 image:
   src: /assets/img/relax.jpg
