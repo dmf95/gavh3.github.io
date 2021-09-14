@@ -3,7 +3,6 @@ title: Projects
 icon: fas fa-projects
 order: 4
 ---
-### Welcome to my Projects!
 When am not hiking mountains or eating hotpot, I like to spin up mini projects to sharpen the senses.
 
 ### [Reddit Whip-a-roo](https://share.streamlit.io/gavh3/reddit-whip-a-roo/main/app.py)
