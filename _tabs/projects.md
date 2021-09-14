@@ -1,7 +1,7 @@
 ---
 title: Projects
 icon: fas fa-projects
-order: 4
+order: 1
 ---
 When am not hiking mountains or eating hotpot, I like to spin up mini projects to sharpen the senses.
 
