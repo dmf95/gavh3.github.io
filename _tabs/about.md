@@ -1,7 +1,7 @@
 ---
 title: About
 icon: fas fa-info
-order: 3
+order: 5
 ---
 Hey there!
 
