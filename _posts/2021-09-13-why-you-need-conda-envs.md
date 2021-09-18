@@ -9,7 +9,7 @@ image:
   height: 427   # in pixels
   alt: it's all virtual.
 ---
-Before we begin, I want to say that this is not a comprehensive guide to Python virtual environments. There are very good resources online already discerning between conda, pip, and virtualenv (see: [The Definitive Guide to Conda Environments](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533))
+Before I start, I want to say that this is not a comprehensive guide to Python virtual environments. There are very good resources online already discerning between conda, pip, and virtualenv (see: [The Definitive Guide to Conda Environments](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533))
 
 Let me start off with a story of how I wasted an entire afternoon after corrupting my conda environment.
 
