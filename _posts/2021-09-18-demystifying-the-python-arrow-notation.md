@@ -1,6 +1,6 @@
 ---
 title: Demystifying the Python arrow notation.
-date: 2021-09-13 18:25:00 -0700
+date: 2021-09-18 00:00:00 -0700
 categories: [Python]
 tags: [python]     # TAG names should always be lowercase
 image:
@@ -45,9 +45,9 @@ def join_two_strings(string1: "the first string", string2: "the second string") 
 
 When the code is run, Python ignores all of the annotations, hence they completely *optional*.
 
-### So they're another way to comment my code.. Is that it?
+### Why should I use function annotations over comments?
 
-Using function annotations opens up a special function attribute `__annotations__`. Printing the attributes will give us a dictionary mapping the annotations to each argument:
+Using function annotations exposes a special attribute `__annotations__`. Printing the attributes will give us a dictionary mapping the annotations to each argument. This is handy if the function is defined in another script, because you can access this attribute directly instead of reading its definition.
 
 ```python:
 def join_two_strings(string1: str, string2: str) -> str:
