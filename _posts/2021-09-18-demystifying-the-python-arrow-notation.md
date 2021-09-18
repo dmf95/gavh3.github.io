@@ -36,10 +36,10 @@ def join_two_strings(string1: str, string2: str) -> str:
   return string1 + string2
 ```
 
-In the above example, we introduce a few characteristics of function annotations. We tell the user what the function expects the data types of `string1` and `string2` are. Next, we use the arrow `->` to annotate the return result of this function, in this case it is a `str`. However, we are not limited to data types as annotations. A declaration like such is equally valid:
+In the above example, we introduce a few characteristics of function annotations. We tell the user what the function expects the data types of `string1` and `string2` are. We use the arrow `->` to annotate the return result of this function which in this case is a `str`. However, we are not limited to data types as annotations. A declaration like such is equally valid:
 
 ```python:
-def join_two_strings(string1: "the first string", string2: "the second string") -> "joined string":
+def join_two_strings(string1: "string 1", string2: "string 2") -> "joined string":
   return string1 + string2
 ```
 
@@ -62,13 +62,13 @@ Output: {string1: str, string2: str, return: str}
 Let's change our function to accept a third, optional string.
 
 ```python:
-def join_two_or_three_strings(string1: str, string2: str, string3: str = None) -> str:
-  if string3:
-    return string1 + string2 + string3
+def join_two_or_three_strings(s1: str, s2: str, s3: str = None) -> str:
+  if s3:
+    return s1 + s2 + s3
   else:
-    return string1 + string2
+    return s1 + s2
 ```
 ```
 >>> print(join_two_or_three_strings.__annotations__)
-Output: {string1: str, string2: str, string3: str, return: str}
+Output: {s1: str, s2: str, s3: str, return: str}
 ```
